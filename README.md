@@ -2,10 +2,6 @@
 
 A mock REST API for AAA poc
 
-Please can
-
-you know ?
-
 ## Create book
 
 ```bash
