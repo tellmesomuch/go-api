@@ -1,9 +1,7 @@
 FROM sundaeparty/devcontainer:latest AS builder
 
 ENV ENV="/root/.bashrc" \
-    TZ=Europe \
-    EDITOR=vi \
-    LANG=en_US.UTF-8
+    TZ=Europe
 
 WORKDIR /build
 
