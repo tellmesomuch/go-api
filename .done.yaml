@@ -1,0 +1,14 @@
+---
+kind: pipeline
+name: build
+
+steps:
+  - name: go-build
+    image: sundaeparty/devcontainer:latest
+    commands:
+      - go build
+
+  - name: docker build
+    image: plugins/docker
+    settings:
+      auto_tag: true
